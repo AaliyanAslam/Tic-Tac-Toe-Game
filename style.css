@@ -1,7 +1,87 @@
-.body{
 
 
+@media only screen and (max-width: 992px){
+    .row{
+        gap: 20px;
+    }
+    
+    h1{
+        margin-left: 50px;
+    }
+    
+    
 }
+@media only screen and (max-width: 767px){
+    .row{
+        gap: 30px;
+    }
+    h1{
+        margin-left: 50px;
+    }
+    
+    
+}
+@media only screen and (max-width: 560px){
+    .row{
+        gap: 33px;
+    }
+    h1{
+        margin-left: 50px;
+    }
+    
+    
+}
+@media only screen and (max-width: 500px){
+    .row{
+        gap: 36px;
+    }
+    
+    
+}
+@media only screen and (max-width: 480px){
+    .row{
+        gap: 37px;
+    }
+    
+    
+}
+@media only screen and (max-width: 460px){
+    .row{
+        gap: 39px;
+    }
+    
+    
+}
+@media only screen and (max-width: 450px){
+    .row{
+        gap: 42px;
+    }
+    
+    
+}
+@media only screen and (max-width: 430px){
+    .row{
+        gap: 45px;
+    }
+    
+    
+}
+@media only screen and (max-width: 414px){
+    .row{
+        gap: 46px;
+    }
+    
+    
+}
+@media only screen and (max-width: 390px){
+    .row{
+        gap: 48px;
+    }
+    
+    
+}
+
+
 h1
 {
     text-align: center;
@@ -35,6 +115,7 @@ cursor: pointer;
 .row{
     display: flex;
     justify-content: center;
+    /* gap: 20px; */
 }
 
 .infoDiv{
